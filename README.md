@@ -1,3 +1,9 @@
+Just code cleanup and modified urls, lazy to write, can find in `script.js` file. Wanna updates times to times, but who knows?
+
+Original README after next line
+
+---
+
 # Defi Detective
 
 Defi Detective is an open source and free assistant for aiding defi investigations.
