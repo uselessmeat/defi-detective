@@ -142,6 +142,7 @@ chrome.contextMenus.onClicked.addListener(function(contextClick) {
 		}
 		else if (contextClick.menuItemId == "AccountETHId") {
 			chrome.tabs.create({url:`https://debank.com/profile/${contextClick.selectionText}`});
+			chrome.tabs.create({url:`https://intel.arkm.com/explorer/address/${contextClick.selectionText}`});
 		}
 		else if (contextClick.menuItemId == "AccountSOLId") {
 			chrome.tabs.create({url:`https://jup.ag/portfolio/${contextClick.selectionText}`});
